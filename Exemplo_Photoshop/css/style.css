@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+main{
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 8em;
+    line-height: 90%;
+    color: #0D012B;
+}
+hr{
+    margin: 25% 0 0 0;
+    width: 55%;
+    height: 2px;
+    border-style: solid;
+    color: #EA011D;
+    background-color: #EA011D;
+}
+.textos{
+    width: 35%;
+}
+
+.textos p{
+    padding-top: 15%;
+    padding-bottom: 10%; 
+    max-width: 65%;
+    font-size: 1.2em;
+    font-weight: 100;
+    line-height: 200%;
+}
+.textos a{
+    padding-top: 2em;
+    color: #EA011D;
+}
+
+.imagens{
+    background-color: #aaa;
+    position: relative;
+    bottom: 0;
+}
+
+.logo_Natoni{
+    background-color: rgba(106, 18, 18, 0.507);
+    width: 20%;
+    position: absolute;
+    padding: 0 10%;
+    /* margin-top: -40.8%; */
+    bottom: 0;
+}
+.textura{
+    width: 80%;
+    position: absolute;
+}
+.best{
+    color: #fff;
+    background-color: #EA011D;
+    width: 40%;
+    height: 22%;
+}
+
+/* .retangulo_multiply {
+    background-color: #6A1212;
+    width: 35%;
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    size: 100%; */
+}
+.retangulos_coloridos{
+    width: 50%;
+}
